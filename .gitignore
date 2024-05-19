@@ -1,0 +1,6 @@
+pull_requests.csv
+pull_requests.log
+__pycache__/
+*.py[cod]
+.idea
+.env

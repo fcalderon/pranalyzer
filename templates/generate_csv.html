@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate PR Metrics CSV</title>
+</head>
+<body>
+    <h1>Generate PR Metrics CSV</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Generate CSV</button>
+    </form>
+</body>
+</html>
